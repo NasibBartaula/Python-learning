@@ -5,7 +5,7 @@ Second_num=  int(input("Enter the second number: "))
 print("The sum is ",First_num + Second_num)
 
 
-# To input side of a square and pront it's area
+    # To input side of a square and pront it's area
 print("Area finder of a square")
 side=float(input("Enter the side of a square"))
 print("The area of the square is ",side * side)
@@ -85,4 +85,4 @@ print("Multiplication table generator")
 number=int(input("Enter the number"))
 
 for i in range(1,11):
-    print(number,"X",number,"=",number*i)
+    print(number,"X",number,"=",number*i)++++
