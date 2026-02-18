@@ -1,4 +1,4 @@
-"""#Find sum of first 10 odd number
+#Find sum of first 10 odd number
 print("Sum of first 10 odd numbers")
 for i in range(1,21,2):
     print(i)
@@ -104,7 +104,7 @@ while num!=0:
     sum+=digit
     num=num//10
 print(f"The sum of the digit is {sum}")    
-"""
+
 #Password checker
 print("Password checker")
 password="Nasib123"
@@ -117,4 +117,4 @@ while attempt>0:
     else:
         attempt-=1    
 if (attempt==0):
-    print("account locked")        
+    print("account locked")
