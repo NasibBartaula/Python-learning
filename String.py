@@ -49,7 +49,7 @@ print(b.isdecimal())
 print(c.isdecimal())
 print(d.isdecimal())
 
-#islower #isupper #isspace
+#islower #isupper #isspace#
 print(a,a.islower())
 print(a,a.isupper())
 print(a,a.isspace())
