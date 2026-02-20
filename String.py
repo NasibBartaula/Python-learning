@@ -1,4 +1,4 @@
-"""A="Function in string"
+A="Function in string"
 
 #length
 print(len(A))
@@ -52,7 +52,7 @@ print(d.isdecimal())
 #islower #isupper #isspace#
 print(a,a.islower())
 print(a,a.isupper())
-print(a,a.isspace())"""
+print(a,a.isspace())
 
 #Take an input from the uesr then reverse it
 print("Reversing the string")
