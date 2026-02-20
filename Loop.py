@@ -71,7 +71,7 @@ while num!=0:
     digit=num%10
     reverse=reverse*10+digit
     num=num//10
-print(f"Reverse number is {reverse}")    
+print(f"Reverse number is {reverse}")   
 
 #Check if number is palindrome                                         
 num=int(input("Enter the number"))
