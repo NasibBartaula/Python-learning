@@ -85,4 +85,4 @@ print("Multiplication table generator")
 number=int(input("Enter the number"))
 
 for i in range(1,11):
-    print(number,"X",number,"=",number*i)++++
+    print(number,"X",number,"=",number*i)
