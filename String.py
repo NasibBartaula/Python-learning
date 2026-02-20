@@ -1,4 +1,4 @@
-A="Function in string"
+"""A="Function in string"
 
 #length
 print(len(A))
@@ -52,4 +52,36 @@ print(d.isdecimal())
 #islower #isupper #isspace#
 print(a,a.islower())
 print(a,a.isupper())
-print(a,a.isspace())
+print(a,a.isspace())"""
+
+#Take an input from the uesr then reverse it
+print("Reversing the string")
+string=input("Enter the string: ")
+print(string[::-1])
+
+#To check entered string conatins only numbers
+print("digit cheaker")
+a=input("Enter the string")
+b=a.isdigit()
+if b=="True":
+    print("The string contains only digit")
+else:
+    print("The number doesnot contain only digit")    
+
+#To check if the string is palindrome
+print("To check if the string is palindrome or not")
+c=input("Enter the string")
+d=c[::-1]
+if c==d:
+    print("The number is palindrome")
+else:
+    print("feThe number is not palindrome")    
+
+#To find voewls in a string
+print("Vowel finder")
+e=input("Enter the string")
+vowels=0
+for i in e:
+    if i=="a" or i=="A" or i=="e" or i=="E" or i=="i" or i=="I" or i=="o" or i=="O" or i=="u" or i=="U":
+        vowels+=1
+print(vowels)      
