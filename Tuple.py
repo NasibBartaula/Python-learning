@@ -1,6 +1,6 @@
 #Write a program to find:
-# Maximum value
-# Minimum value
+#Maximum value
+#Minimum value
 marks=(23,34,45,56)
 lowest  =min(marks)
 highest =max(marks)
