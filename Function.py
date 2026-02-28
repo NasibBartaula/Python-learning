@@ -57,5 +57,29 @@ elif code==3:
 elif code==4:
     a=int(input("Enter the first divident: "))
     b=int(input("Enter the second divider: "))
-    print(divide(a,b))            
-    
+    print(divide(a,b))    
+
+#Create a  list where values are squares of 1 to 30.
+def list():
+    l=[]
+    for i in range(1,31):
+        l.append(i**2)
+    return l
+list()
+            
+#Create a function to check the number is prime or not
+def prime(num):
+    if num ==1:
+        print("The number is not prime")
+    elif num==2:
+        print("The number is prime")
+    if num>2:
+        for i in range(2,num):
+             if num%i==0:
+                 print("The number is not a prime number")
+                 break 
+        else:
+            print("The number is a prime number")
+
+num=int(input("Enter the number to be checked as a prime"))
+prime(num)                     
