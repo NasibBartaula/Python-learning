@@ -1,0 +1,15 @@
+StudentID,Name,Age,Gender,Course,Math,Science,English,Attendance
+1,,20,Male,BCA,78,85,74,90
+2,Sita,,Female,BCA,88,92,81,95
+3,Hari,21,,BCA,67,73,70,80
+4,Gita,20,Female,BCA,91,89,94,98
+5,Shyam,22,Male,BCA,56,60,58,75
+6,Hari,21,Male,BCA,67,73,70,80
+7,Hari,21,Male,BCA,67,73,70,80
+8,Kiran,22,Male,BCA,61,70,64,78
+9,Anita,19,Female,BCA,84,79,88,92
+10,Hari,21,Male,BCA,67,73,70,80
+11,Kiran,22,Male,BCA,61,70,64,78	
+12,Prisha,20,Female,BCA,95,96,93,99
+13,Kiran,22,Male,BCA,61,70,64,78
+14,Nisha,19,Female,BCA,89,87,90,96
