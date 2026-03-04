@@ -47,8 +47,19 @@ print(c)
 
 #Use ceil() to round 3.6 upward
 k = math.ceil(3.6)
-print(k)
+print(k)    
 
 #Use floor() to round 3.4 downward
 k = math.floor(3.4)
 print(k)
+
+#Own module
+import Calculator
+c=Calculator.add(3,7)
+print(c)
+
+d=Calculator.mul(2,6)
+print(d)
+
+e=Calculator.div(55,5)
+print(e)
