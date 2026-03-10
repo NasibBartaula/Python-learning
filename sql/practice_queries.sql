@@ -11,5 +11,46 @@ first_name="nick" and last_name="wahlberg";
 select first_name,film_info from sakila.actor_info where
 first_name="nick" or last_name="wahlberg";
 select first_name,film_info from sakila.actor_info where not
-first_name="nick" 
+first_name="nick" or last_name="wahlberg";
+-
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
