@@ -39,6 +39,30 @@ select max(actor_id) as sum from sakila.actor_info;
 select min(actor_id) as sum from sakila.actor_info;
 
 
+select * from sakila.payment;
+select date(payment_date) from sakila.payment;
+select time(payment_date) from sakila.payment;
+select monthname(payment_date) from sakila.payment;
+select year(payment_date) from sakila.payment;
+select hour(payment_date) from sakila.payment;
+select minute(payment_date) from sakila.payment;
+select customer_id,rental_id,
+case
+    when amount<1 then "Low payment"
+    else "Payment"
+end as amout_detail
+from sakila.payment;
+
+select * from sakila.payment;   
+select customer_id,count(amount) from sakila.payment group by customer_id order by count(amount) asc ;
+
+select * from sakila.actor;
+select * from sakila.film_text;
+
+select * from sakila.film_list
+except
+select * from sakila.nicer_but_slower_film_list;
+
 
 
 
