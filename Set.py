@@ -40,7 +40,7 @@ print("Students only in class1",only1)
 #Add element, Remove element, Display set, Exit, 
 menu=set()
 while True:
-    print("Enter  1 to add element.")
+    print("Enter  1 to add element. ")
     print("Enter 2 to remove element")
     print("Enter 3 to see the set")
     print("Enter 4 to exit this")
